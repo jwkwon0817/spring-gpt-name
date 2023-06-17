@@ -17,7 +17,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-/src/main/java/com/codemos/name/secrets
+Api.java
 
 ### IntelliJ IDEA ###
 .idea
