@@ -17,7 +17,7 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-Api.java
+key.json
 
 ### IntelliJ IDEA ###
 .idea

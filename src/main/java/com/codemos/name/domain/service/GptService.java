@@ -12,7 +12,7 @@ public class GptService {
 	public ResultDto result(String usage, String description, String caseStyle, String language) {
 		String prompt = "I'm trying to name a " + usage + " in " + language + " that " + description + ". The Code style is " + caseStyle + ". Please suggest a name for me.";
 		
-		OpenAiService service = new OpenAiService(Api.OPEN_AI_API_KEY);
+		OpenAiService service = new OpenAiService(Api.getOpenApiKey());
 		CompletionRequest completionRequest = CompletionRequest.builder()
 			.prompt(prompt)
 			.model("text-davinci-003")
